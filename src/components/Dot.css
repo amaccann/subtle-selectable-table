@@ -1,0 +1,17 @@
+.dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: #ccc;
+  border-radius: 100%;
+}
+
+.dot.dot--error {
+  background-color: var(--variant-error);
+}
+.dot.dot--warning {
+  background-color: var(--variant-warning);
+}
+.dot.dot--success {
+  background-color: var(--variant-success);
+}

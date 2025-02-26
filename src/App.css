@@ -1,0 +1,56 @@
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.pending-alert {
+  background-color: var(--variant-warning);
+  padding: 8px 16px;
+  border-radius: 16px;
+  color: #fff;
+  opacity: 1;
+  animation: 500ms 1 normal fade-in;
+}
+
+.table-actions {
+  margin-bottom: 16px;
+}
+
+.table {
+  border-spacing: 0;
+  margin-top: 16px;
+  border: 1px solid var(--table-border-color);
+  text-align: left;
+  font-size: 14px;
+}
+
+.table th, .table td {
+  padding: 12px;
+  vertical-align: middle;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  #root {
+    padding: 0;
+  }
+
+  .table {
+    font-size: 12px;
+  }
+
+  .table-actions {
+    justify-content: space-between !important;
+  }
+}

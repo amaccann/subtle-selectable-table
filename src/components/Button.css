@@ -1,0 +1,21 @@
+.button {
+  border-radius: 16px;
+  background: #3da3e3;
+  color: #fff;
+  padding: 5px 16px;
+  border: 1px solid #0c95eb;
+}
+
+.button:active:not(:disabled) {
+  background: #0c95eb;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button:disabled {
+  opacity: 0.5;
+  user-select: none;
+  cursor: not-allowed;
+}

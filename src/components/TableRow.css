@@ -1,0 +1,25 @@
+.table-row {
+  transition: background-color 200ms;
+  background-color: #f2f6fc;
+}
+
+.table-row td {
+  border-bottom: 1px solid var(--table-border-color);
+}
+
+.table-row:hover {
+  cursor: pointer;
+  background-color: #c8d2e3;
+}
+
+.table-row[data-can-download="true"] {
+  background-color: #d8e0ed;
+}
+
+.table-row:hover[data-can-download="true"]  {
+  background-color: #c8d2e3;
+}
+
+.table-row[data-selected="true"] {
+  background-color: #c2dbff;
+}

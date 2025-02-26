@@ -1,0 +1,276 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main app portal renders app, taking snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="table-actions"
+    style="display: flex; align-items: flex-start; gap: 32px; justify-content: flex-start;"
+  >
+    <div
+      style="display: flex; align-items: flex-start; gap: 8px; justify-content: flex-start;"
+    >
+      <input
+        aria-checked="false"
+        aria-label="Select all"
+        checked=""
+        class="checkbox"
+        id="select-all"
+        title="Select all"
+        type="checkbox"
+      />
+      <label
+        for="select-all"
+        title="Selected total"
+      >
+        None selected
+      </label>
+    </div>
+    <button
+      aria-label="Download selected"
+      class="button"
+      disabled=""
+    >
+      Download selected
+    </button>
+  </div>
+  <table
+    class="table"
+  >
+    <thead>
+      <tr>
+        <th />
+        <th>
+          Name
+        </th>
+        <th>
+          Device
+        </th>
+        <th>
+          Path
+        </th>
+        <th>
+          Status
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        class="table-row"
+        data-can-download="false"
+        data-selected="false"
+      >
+        <td>
+          <input
+            aria-checked="false"
+            aria-label="smss.exe"
+            class="checkbox"
+            title="smss.exe"
+            type="checkbox"
+          />
+        </td>
+        <td>
+          smss.exe
+        </td>
+        <td>
+          Mario
+        </td>
+        <td>
+          \\Device\\HarddiskVolume2\\Windows\\System32\\smss.exe
+        </td>
+        <td>
+          <div
+            style="display: flex; align-items: center; gap: 0px; justify-content: flex-start;"
+          >
+            <span
+              style="margin-left: 4px;"
+            >
+              Scheduled
+            </span>
+          </div>
+        </td>
+      </tr>
+      <tr
+        class="table-row"
+        data-can-download="true"
+        data-selected="false"
+      >
+        <td>
+          <input
+            aria-checked="false"
+            aria-label="netsh.exe"
+            class="checkbox"
+            title="netsh.exe"
+            type="checkbox"
+          />
+        </td>
+        <td>
+          netsh.exe
+        </td>
+        <td>
+          Luigi
+        </td>
+        <td>
+          \\Device\\HarddiskVolume2\\Windows\\System32\\netsh.exe
+        </td>
+        <td>
+          <div
+            style="display: flex; align-items: center; gap: 0px; justify-content: flex-start;"
+          >
+            <span
+              class="dot dot--success"
+            />
+            <span
+              style="margin-left: 4px;"
+            >
+              Available
+            </span>
+          </div>
+        </td>
+      </tr>
+      <tr
+        class="table-row"
+        data-can-download="true"
+        data-selected="false"
+      >
+        <td>
+          <input
+            aria-checked="false"
+            aria-label="uxtheme.dll"
+            class="checkbox"
+            title="uxtheme.dll"
+            type="checkbox"
+          />
+        </td>
+        <td>
+          uxtheme.dll
+        </td>
+        <td>
+          Peach
+        </td>
+        <td>
+          \\Device\\HarddiskVolume1\\Windows\\System32\\uxtheme.dll
+        </td>
+        <td>
+          <div
+            style="display: flex; align-items: center; gap: 0px; justify-content: flex-start;"
+          >
+            <span
+              class="dot dot--success"
+            />
+            <span
+              style="margin-left: 4px;"
+            >
+              Available
+            </span>
+          </div>
+        </td>
+      </tr>
+      <tr
+        class="table-row"
+        data-can-download="false"
+        data-selected="false"
+      >
+        <td>
+          <input
+            aria-checked="false"
+            aria-label="aries.sys"
+            class="checkbox"
+            title="aries.sys"
+            type="checkbox"
+          />
+        </td>
+        <td>
+          aries.sys
+        </td>
+        <td>
+          Daisy
+        </td>
+        <td>
+          \\Device\\HarddiskVolume1\\Windows\\System32\\aries.sys
+        </td>
+        <td>
+          <div
+            style="display: flex; align-items: center; gap: 0px; justify-content: flex-start;"
+          >
+            <span
+              style="margin-left: 4px;"
+            >
+              Scheduled
+            </span>
+          </div>
+        </td>
+      </tr>
+      <tr
+        class="table-row"
+        data-can-download="false"
+        data-selected="false"
+      >
+        <td>
+          <input
+            aria-checked="false"
+            aria-label="cryptbase.dll"
+            class="checkbox"
+            title="cryptbase.dll"
+            type="checkbox"
+          />
+        </td>
+        <td>
+          cryptbase.dll
+        </td>
+        <td>
+          Yoshi
+        </td>
+        <td>
+          \\Device\\HarddiskVolume1\\Windows\\System32\\cryptbase.dll
+        </td>
+        <td>
+          <div
+            style="display: flex; align-items: center; gap: 0px; justify-content: flex-start;"
+          >
+            <span
+              style="margin-left: 4px;"
+            >
+              Scheduled
+            </span>
+          </div>
+        </td>
+      </tr>
+      <tr
+        class="table-row"
+        data-can-download="false"
+        data-selected="false"
+      >
+        <td>
+          <input
+            aria-checked="false"
+            aria-label="7za.exe"
+            class="checkbox"
+            title="7za.exe"
+            type="checkbox"
+          />
+        </td>
+        <td>
+          7za.exe
+        </td>
+        <td>
+          Toad
+        </td>
+        <td>
+          \\Device\\HarddiskVolume1\\temp\\7za.exe
+        </td>
+        <td>
+          <div
+            style="display: flex; align-items: center; gap: 0px; justify-content: flex-start;"
+          >
+            <span
+              style="margin-left: 4px;"
+            >
+              Scheduled
+            </span>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</DocumentFragment>
+`;

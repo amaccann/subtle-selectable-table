@@ -1,0 +1,8 @@
+.checkbox {
+  zoom: 1.2;
+  position: relative;
+  top: 2px;
+}
+.checkbox--indeterminate {
+  opacity: 0.5;
+}
